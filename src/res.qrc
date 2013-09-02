@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/close.png</file>
+        <file>img/document-export.png</file>
+        <file>img/document-import.png</file>
+        <file>img/joomla_webtreats.png</file>
+    </qresource>
+</RCC>

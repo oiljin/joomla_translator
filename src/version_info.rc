@@ -1,0 +1,42 @@
+#ifndef Q_CC_BOR
+# if defined(UNDER_CE) && UNDER_CE >= 400
+#  include <winbase.h>
+# else
+#  include <winver.h>
+# endif
+#endif
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 0,0,0,2
+PRODUCTVERSION 0,0,0,2
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904b0"
+        BEGIN
+            VALUE "Comments", "Joomla! Translator\0"
+            VALUE "CompanyName", "Ильин Олег\0"
+            VALUE "FileDescription", "Joomla! Translator\0"
+VALUE "FileVersion", "0.0.0.2\0"
+            VALUE "InternalName", "Joomla! Translator\0"
+            VALUE "LegalCopyright", "Ильин Олег © 2013\0"
+            VALUE "OriginalFilename", "JoomlaTranslator.exe\0"
+            VALUE "ProductName", "JoomlaTranslator.exe\0"
+VALUE "ProductVersion", "0.0.0.2\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1200
+    END
+END
+
+IDI_ICON1 ICON DISCARDABLE "app.ico"
