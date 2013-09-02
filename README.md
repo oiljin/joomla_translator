@@ -1,0 +1,2 @@
+joomla_translator
+=================
